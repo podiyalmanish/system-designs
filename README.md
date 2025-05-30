@@ -3,7 +3,7 @@
 
 ## Serverless Messaging Service Architecture
 
-![Serverless Messaging Service Architecture Diagram](serverless-messaging-service-architecure-diagram.png)
+![Serverless Messaging Service Architecture Diagram](serverless-messaging-service-architecture-diagram.png)
 
 This architecture diagram illustrates a serverless messaging service flow built on AWS components:
 
