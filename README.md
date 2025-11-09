@@ -1,7 +1,7 @@
 # System-designs 
 - **A collection of my recent system design work, showcasing scalable architecture, design patterns, and best practices.**
 
-## 1) Serverless Messaging Service Architecture
+## 1) `Serverless Messaging Service` Architecture
 
 ![Serverless Messaging Service Architecture Diagram](serverless-messaging-service-architecture-diagram.png)
 
@@ -26,7 +26,7 @@ This design leverages AWS managed services to achieve scalability, decoupling, a
 
 ---
 
-## 2) `hotel-search-api` System Design Overview
+## 2) `hotel-search-api` system design overview
 
 This system design outlines the high-level architecture for a hotel search and booking platform. The core concept leverages major **Hotel Aggregators** (also known as Bedbanks or large OTAs) to consolidate hotel inventory from numerous sources, rather than connecting directly to every individual hotel system or channel manager.
 
