@@ -35,8 +35,8 @@ This system design outlines the high-level architecture for a hotel search and b
 
 ### System Components
 
-**User (OTA Website)**:	The front-end application (your website or app) where end-users search for hotels and make bookings.
-**Hotel Search API (Your Site)**:	Your back-end service responsible for handling user requests, querying the Hotel Aggregator API, processing results, and managing the booking flow.
-**Hotel Aggregator Network**:	A third-party B2B service (e.g., Hotelbeds, Expedia Partner Solutions) that aggregates hotel data from thousands of sources into a single API endpoint. This is the primary data source for your system.
-**Channel Manager (CM)**:	Software used by hotels to manage their inventory and pricing across multiple Online Travel Agencies (OTAs) simultaneously. The CM uses industry standards (like OpenTravel XML) to sync data in real-time.
-**Hotel PMS (Property Management System)**:	The internal software system used by hotels to manage all internal operations, including reservations, check-ins, billing, and room availability.
+- **User (OTA Website)**:	The front-end application (your website or app) where end-users search for hotels and make bookings.
+- **Hotel Search API (Your Site)**:	Your back-end service responsible for handling user requests, querying the Hotel Aggregator API, processing results, and managing the booking flow.
+- **Hotel Aggregator Network**:	A third-party B2B service (e.g., Hotelbeds, Expedia Partner Solutions) that aggregates hotel data from thousands of sources into a single API endpoint. This is the primary data source for your system.
+- **Channel Manager (CM)**:	Software used by hotels to manage their inventory and pricing across multiple Online Travel Agencies (OTAs) simultaneously. The CM uses industry standards (like OpenTravel XML) to sync data in real-time.
+- **Hotel PMS (Property Management System)**:	The internal software system used by hotels to manage all internal operations, including reservations, check-ins, billing, and room availability.
